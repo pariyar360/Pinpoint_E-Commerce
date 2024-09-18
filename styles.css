@@ -116,7 +116,7 @@ p {
 }
 
 a {
-  color: #000000;
+  color: #42a5f5;
   font-family: "Roboto", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 23px;
@@ -168,6 +168,7 @@ small {
   border-bottom: 1px solid #f2f3f5;
   clear: both;
   width: 100%;
+  margin: 20px 0;
 }
 
 @media (min-width: 720px) {
@@ -204,7 +205,7 @@ small {
 
 /* Site Navigation */
 .site-header {
-  background-color: #ebebeb;
+  background-color: #34474f;
   padding: 30px 15px 0;
 }
 
@@ -250,7 +251,7 @@ small {
 .site-nav-left li:not(:last-child),
 .site-nav-right li:not(:last-child),
 .site-nav-mobile li:not(:last-child) {
-  margin-right: 5px;
+  margin-right: 30px;
 }
 
 .site-nav-left .logo {
@@ -258,12 +259,12 @@ small {
 }
 
 .site-nav-link {
-  color: #959595;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .site-nav-link.active {
-  color: #2a2a2a;
+  color: #ffaa00;
 }
 
 /* Site Footer */
@@ -331,7 +332,7 @@ small {
 }
 
 .alert-error {
-  background-color: #cccccc;
+  background-color: #fc472e;
 }
 
 .alert img {
@@ -366,11 +367,11 @@ small {
 }
 
 .button-primary {
-  background-color: #959595;
+  background-color: #00cf63;
 }
 
 .button-secondary {
-  background-color: #2a2a2a;
+  background-color: #ffaa00;
 }
 
 .button-full {
@@ -439,7 +440,7 @@ input:active,
 input:focus,
 textarea:active,
 textarea:focus {
-  border: 1px solid #cccccc;
+  border: 1px solid #fc472e;
   outline: none;
 }
 
@@ -465,12 +466,12 @@ textarea {
   ======================================== */
 
 .site-main {
-  padding: 0 15px;
+  padding: 60px 15px;
   position: relative;
 }
 
 .site-main-background {
-  background-color: #ebebeb;
+  background-color: #34474f;
   bottom: 0;
   display: block;
   height: 600px;
@@ -482,12 +483,12 @@ textarea {
 }
 
 .site-main-header {
-  margin-bottom: 0;
+  margin-bottom: 60px;
 }
 
 .site-main-header h1,
 .site-main-header p {
-  color: #2a2a2a;
+  color: #ffffff;
 }
 
 .section-header {
@@ -498,7 +499,7 @@ textarea {
 
 .order-item {
   display: block;
-  margin-top: 30px;
+  margin: 50px 0;
 }
 
 .item-price {
@@ -510,12 +511,12 @@ textarea {
 }
 
 .help-box {
-  background-color: #ffffff;
+  background-color: #ffaa00;
   border-radius: 3px;
   clear: both;
   display: block;
-  margin-top: 0;
-  padding: 0;
+  margin-top: 30px;
+  padding: 15px;
 }
 
 .help-box p {
